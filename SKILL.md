@@ -56,7 +56,7 @@ import re
 **CRITICAL: The CSV header format is FIXED and must NEVER be changed. Always use this exact format:**
 
 ```csv
-达人名称,Youtube ID,Youtube 主页,Follower数量,近五条平均观看量,更新频率,是否提及相关话题,是否有IG,Comment,Comment(previous),跟进人,联系邮箱,本次合作议价值,联系方式,合作进度,内容风格,受众风格,第一次报价,评估依据
+达人名称,Youtube ID,Youtube 主页,Follower数量,近五条平均观看量,更新频率,是否提及相关话题,是否有IG,Comment(Hpcp),Comment(previous),跟进人,联系邮箱,本次合作议价值,联系方式,合作进度,内容风格,受众风格,第一次报价,评估依据(Hpcp)
 ```
 
 **Field Filling Rules:**
@@ -69,7 +69,7 @@ import re
 6. **更新频率 (Update Frequency)**: Must be one of: 3天/条, 4-7天/条, 7天+/条, 14天+/条
 7. **是否提及相关话题 (AI/Claude Relevant)**: "是" or "否"
 8. **是否有IG (Has Instagram)**: Leave EMPTY unless found on public page
-9. **Comment**: Detailed analysis (see format below)
+9. **Comment(Hpcp)**: Detailed analysis (see format below)
 10. **Comment(previous)**: Leave EMPTY
 11. **跟进人 (Follow-up Person)**: Default "待指定"
 12. **联系邮箱 (Contact Email)**: Leave EMPTY unless found on public page
@@ -79,7 +79,7 @@ import re
 16. **内容风格 (Content Style)**: Brief description (e.g., "Vlog型、学习/效率提升、职业发展")
 17. **受众风格 (Audience Style)**: Target audience description
 18. **第一次报价 (First Quote)**: Leave EMPTY
-19. **评估依据 (Evaluation Reason)**: HappyCapy evaluation details with emojis (see format below)
+19. **评估依据(Hpcp) (Evaluation Reason)**: HappyCapy evaluation details with emojis (see format below)
 
 ### 6. HappyCapy Collaboration Evaluation System
 
